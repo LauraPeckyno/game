@@ -1,8 +1,9 @@
 .characterSelect {
-    border: solid black;
+    /* border: solid black; */
     background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
+    background-image: url("https://i.pinimg.com/564x/a1/99/f3/a199f37446cbe1cd6701c693963971c3.jpg");
 
 }
 
@@ -27,12 +28,12 @@
 }
 
 .playerBox {
-    border: solid black;
+    /* border: solid black; */
     text-align: center;
 }
 
 .playerBox:hover {
-    border: solid black;
+    /* border: solid black; */
     text-align: center;
     color: rgb(0, 68, 255);
 }
@@ -60,23 +61,30 @@
     /* border: solid rgb(255, 3, 3); */
     background-color: rgb(255, 255, 255);
     display: flex;
+    padding: 10px;
     justify-content: space-evenly;
-    color: White;
+    color: rgb(2, 2, 2);
 }
 .won {
     color: green;
     font-size: larger;
     font-family:Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    padding: 15px;
 }
 .lost {
     color: red;
     font-size: larger;
     font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 219, 219);
+    padding: 15px;
 }
 .tie {
     color: rgb(0, 0, 0);
     font-size: larger;
     font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(203, 218, 236);
+    padding: 15px;
 }
 p, h1, h2 {
     color: rgb(0, 0, 0);
