@@ -1,7 +1,8 @@
 
-
-
-
+var characters = [
+    { name: "Purrcival" },
+    { name: "Clawrence" },
+];
 
 //Select Player one
 //https://scontent.fagc3-2.fna.fbcdn.net/o1/v/t0/f1/m255/upload_img_2367944_08_05_2024_12_11_57_383301_2756706575569245631.jpeg?_nc_ht=scontent.fagc3-2.fna.fbcdn.net&_nc_cat=109&ccb=9-4&oh=00_AYCfJ7dyYLJr_06Nb3rezTMH4EKvYQU6keYnpVDht_vQAg&oe=66B2F3D6&_nc_sid=5b3566
@@ -23,14 +24,9 @@ const addtoBattle = (interaction) => {
     let picture = document.createElement("img");
     picture.setAttribute("src", interaction.target.src);
     field.appendChild(picture);
-
 };
-
-character1.addEventListener("click", addtoBattle);
 character1.addEventListener("click", addtoBattle);
 character2.addEventListener("click", addtoBattle);
-
-
 //--------------------
 //dice roll
 
