@@ -5,15 +5,32 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
-        <meta name="description" content="">
+        <meta name="description" content>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Please select your fighter!</h1>
-<div class="characterSelect"><div class="playerBox"><img class="player1" src="https://scontent.fagc3-2.fna.fbcdn.net/o1/v/t0/f1/m255/upload_img_2367944_08_05_2024_12_11_57_383301_2756706575569245631.jpeg?_nc_ht=scontent.fagc3-2.fna.fbcdn.net&_nc_cat=109&ccb=9-4&oh=00_AYCfJ7dyYLJr_06Nb3rezTMH4EKvYQU6keYnpVDht_vQAg&oe=66B2F3D6&_nc_sid=5b3566" width="200px;" alt="a pixel art cat with a sword"></div><div class="playerBox"><img class="player2" src="https://scontent.fagc3-2.fna.fbcdn.net/o1/v/t0/f1/m255/upload_img_67710769_08_05_2024_12_11_57_358095_7264220551358791248.jpeg?_nc_ht=scontent.fagc3-2.fna.fbcdn.net&_nc_cat=101&ccb=9-4&oh=00_AYDieoLoj_0uKG3SjrYqrXhkdYgWj-JgOiAAjtxmSiTGeA&oe=66B306F8&_nc_sid=5b3566" width="200px;" alt="another pixel art cat with a sword"></div>
-</div> 
-<div></div>       
+        <p>Once you've selected a fighter, click the "FIGHT" button to battle
+            your oponent. The result of your efforts will be displayed above the
+            battlefield.</p><button class="fight"
+            onClick="rollDice()">FIGHT!</button>
+        <p>Good luck!</p>
+        <div class="results"></div>
+        <div class="characterSelect"><div
+                class="playerBox"><h2>Purrcival</h2><img onclick="addtoBattle()"
+                    id="player1"
+                    src="https://www.pecknotes.com/wp-content/uploads/2024/08/purrcival.png"
+                    width="200px" height="200px"
+                    alt="a pixel art cat with a sword"></div><div
+                class="playerBox"><h2>Clawrence</h2><img onclick="addtoBattle()"
+                    id="player2"
+                    src="https://www.pecknotes.com/wp-content/uploads/2024/08/clawrence.png"
+                    height="200px"
+                    alt="another pixel art cat with a sword"></div>
+        </div>
+        <div class="battlefield"><h1> YOUR CHARACTER SELECTION</h1></div>
+
         <script src="app.js" async defer></script>
     </body>
 </html>
